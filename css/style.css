@@ -1,0 +1,287 @@
+* {
+	margin: 0;
+}
+
+body{
+	margin: 0 auto;
+	background-color: #dbc8a7;
+}
+.container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+/*стили для хедера*/
+header{
+	background-color: #4f3924;
+	padding: 15px;
+	
+}
+.sitename{
+	font-family: 'Alice', serif;
+	float: left;
+	font-size: 25px;
+	color:#FFDE77;
+	padding-top: 15px;
+	padding-left: 60px;
+}
+.logo{
+	height: 100px;
+	width: 90px;
+	float: left;
+	padding-left: 38px;
+	padding-right: 10px;
+}
+/*стили для меню*/
+nav{
+	padding-top: 75px;
+	text-align: right;
+	padding-right: 100px;
+    
+}
+nav li {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Istok Web', sans-serif;
+}
+nav a{
+	text-decoration: none; 
+	color: #FFDE77;
+	font-size: 15px;
+}
+.menuactive a{
+	color: #d99023;
+}
+.menu li {
+	display: inline-block;
+}
+/*стили для поиска*/
+.search{
+	float: right;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+.find{
+	background-color: #FFDEAD;
+	border-radius: 7px;
+	padding: 5px;
+	font-size: 10px;
+	border: 0px;
+}
+
+/*стили для артикла главная*/
+article {
+	background-color: #f3e9df;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border: 1px solid #FFDE77;
+
+}
+
+.infonews{
+	
+	background-color: #f6f1ec;
+	font-size: 20px;
+	width:80%;
+	margin: 0 auto;
+	padding: 30px;
+	border-bottom: solid 5px #FFDE77;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	margin-bottom: 30px;
+}
+.namenew{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color: #2E2E29;
+	font-size: 35px;
+}
+.imgnew1{
+	width: 400px;
+	height: 250px;
+	float: left;
+	margin: 7px 0px 7px 7px;
+	padding: 0px 25px 0px 0px;
+}
+.imgnew2{
+	width: 100%
+}
+.imgnew3{
+	height: 400px;
+	float: right;
+	margin: 7px 0px 7px 7px;
+	padding: 0px 25px 0px 0px;
+}
+.imgnew4{
+	width: 600px;
+	height: 400px;
+	float: left;
+	margin: 7px 0px 7px 7px;
+	padding: 0px 25px 0px 0px;
+}
+.more{
+	text-decoration: none;
+	color:#f7c200;
+	font-family: 'Istok Web', sans-serif;
+
+}
+.infonewscentr{
+	text-align: center;
+}
+
+/*стили для артикла история*/
+.story{
+	margin: 0 auto;
+	padding: 30px;
+	width:90%;
+}
+.nameh{
+	text-align: center;
+	font-family: 'Gabriela', serif;
+	padding-bottom: 30px;
+	color: #4f3924;
+}
+.imgstory1{
+	float: left;
+	margin: 7px 0px 7px 7px;
+	height: 400px;
+	width: 280px;
+	padding: 0px 25px 0px 0px;
+}
+.imgstory2{
+	float: right;
+	margin: 7px 0px 7px 7px;
+	height: 280px;
+	width: 400px;
+	padding: 0px 25px 0px 0px;
+}
+.infostory{
+	font-size: 20px;
+	margin-top: 0;
+}
+/*стили для артикла галереии*/
+.imggallery{
+	width: 280px;
+	margin: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+.galleryphoto{
+	margin: 0 auto;
+	width: 90%;
+}
+/*стили для артикла афиши*/
+.tickets{
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+.ticket{
+	width: 283px;
+	border-bottom: solid 4px #FFDE77;
+	display: inline-block;
+	margin: 30px 5px 0px 5px;
+	padding-bottom: 20px;
+}
+.imgtickets{
+	height: 280px;
+	margin: 0 auto;
+}
+.ticketstext{
+	padding: 5px;
+	font-family: 'Istok Web', sans-serif;
+	font-size: 15px;
+}
+.zakaz{
+	font-family: 'Istok Web', sans-serif;
+	margin-bottom: 20px; 
+	border-radius: 7px;
+	background-color: #FFDE77;
+	padding: 5px;
+	font-size: 15px;
+	border:0px; 
+	color: #4f3924;
+	text-decoration: none;
+}
+/*стили для артикла резюме*/
+.infosummary{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 25px;
+
+}
+.photomy{
+	width: 300px;
+	float: right;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8); 
+	border-radius: 25px;
+}
+
+/*стили для футера*/
+.clear{
+	clear: both;
+}
+
+footer{
+	background-color: #4f3924;
+	color: #FFDE77;
+	overflow: hidden;
+}
+.partner{
+	padding-top: 40px;
+}
+.coment{
+	width: 144px;
+	float: right;
+	padding: 18px;
+    padding-right: 186px;
+    padding-top: 40px;
+}
+.inpcontent{
+	background-color: #FFDEAD;
+	border-radius: 7px;
+	padding: 3px;
+	margin: 5px;
+	border: 0px;
+}
+.namecoment{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 18px;
+	padding-left: 5px;
+}
+.zavodimg{
+	width: 600px;
+	height: 60px;
+}
+.zavod{
+	width: 900px;
+    padding-left: 90px;
+    text-align: center;
+}
+.kuliniimg{
+	width: 180px;
+	height:60px;
+	float: left;
+	padding-top: 36px;
+	padding-left: 156px;
+}
+.avecimg{
+	width: 180px;
+	height:60px;
+	float: left;
+	padding-top: 24px;
+	padding-right: 7px;
+}
+.retrofmimg{
+	width: 90px;
+	height:90px;
+	float: left;
+	padding-right: 15px;
+}
+.byuroimg{
+	width: 108px;
+	height:90px;
+	float: left;
+	padding-right: 7px;
+}
